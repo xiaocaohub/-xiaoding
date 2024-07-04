@@ -59,21 +59,15 @@ class Home extends React.Component {
             ]
         }
     }
-
-
-
     componentDidMount () {
         this.play()
     }
-
     play = ()=> {
         const video = document.getElementById("video");
         video.autoplay = true;
         video.style.outline = "none";
     }
     showVideoFn = (index)=> {
-        console.log('index', index)
-
         this.setState({
             videoShowFlag: true,
             currentVideoIndex: index
