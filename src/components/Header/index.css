@@ -107,6 +107,7 @@
     background-position:center;
     border-top-right-radius:40px;
     border-bottom-right-radius:40px;
+    cursor:pointer;
 }
 .cart_icon{
     float:left;
